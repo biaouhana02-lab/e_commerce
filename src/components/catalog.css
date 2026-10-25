@@ -1,0 +1,3 @@
+.product-brand{margin:-3px 0 7px;color:#938477;font-size:10px;letter-spacing:.025em}
+.catalog-meta span:first-child{max-width:300px;line-height:1.4}
+@media(max-width:620px){.catalog-meta span:first-child{display:none}}

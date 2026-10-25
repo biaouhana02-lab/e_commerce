@@ -1,0 +1,13 @@
+import capImage from '../../../public/assets/casquette_ecommerce.jpeg';
+const photo = (id) => `/assets/catalog/${id}.jpg`;
+
+export const accessoryProducts = [
+  { id: 'acc-casquette-6p', brand: 'Noma Studio', name: 'Casquette six panneaux', price: 4500, stock: 22, isNew: false, category: 'Accessoires', type: 'Casquette', image: capImage, description: 'Casquette à visière courbe, œillets brodés et fermeture réglable. Taille unique.' },
+  { id: 'acc-montre-classique', brand: 'Temps Juste', name: 'Montre cadran minimal', price: 32500, stock: 5, isNew: true, category: 'Accessoires', type: 'Montre', image: photo('photo-1575845321082-53eb3a76db9e'), description: 'Montre analogique à cadran épuré, mouvement à quartz et bracelet ajustable.' },
+  { id: 'acc-portefeuille-cuir', brand: 'Poche & Cie', name: 'Portefeuille compact à rabat', price: 9500, stock: 13, isNew: false, category: 'Accessoires', type: 'Portefeuille', image: photo('photo-1651928692943-5d837fccf061'), description: 'Portefeuille compact avec six fentes pour cartes, poche monnaie et compartiment billets.', compareAtPrice: 11900 },
+  { id: 'acc-lunettes-soleil', brand: 'Clair Obscur', name: 'Lunettes aviateur', price: 12500, stock: 9, isNew: true, category: 'Accessoires', type: 'Lunettes de soleil', image: photo('photo-1711223499758-8aef018b720e'), description: 'Monture aviateur légère, verres teintés et étui de rangement inclus.' },
+  { id: 'acc-ceinture-cuir', brand: 'Poche & Cie', name: 'Ceinture boucle mate', price: 8900, stock: 17, isNew: false, category: 'Accessoires', type: 'Ceinture', image: photo('photo-1608680582325-9f701aef1bb0'), description: 'Ceinture en cuir pleine fleur avec boucle métallique mate. Longueur ajustable.' },
+  { id: 'acc-foulard-coton', brand: 'Maison Sira', name: 'Foulard rouge à nouer', price: 6900, stock: 12, isNew: true, category: 'Accessoires', type: 'Foulard', image: photo('photo-1510574457807-3d9bf494ff6b'), description: 'Foulard léger à nouer au cou ou dans les cheveux, finition roulottée. 70 × 70 cm.' },
+  { id: 'acc-montre-bracelet-cuir', brand: 'Temps Juste', name: 'Montre bracelet cuir', price: 28900, stock: 6, isNew: false, category: 'Accessoires', type: 'Montre classique', image: photo('photo-1524592094714-0f0654e20314'), description: 'Montre à aiguilles et bracelet en cuir souple, fermoir à boucle et boîtier discret.' },
+  { id: 'acc-lunettes-ecaille', brand: 'Clair Obscur', name: 'Lunettes rondes écaille', price: 13900, stock: 11, isNew: false, category: 'Accessoires', type: 'Lunettes rondes', image: photo('photo-1511499767150-a48a237f0083'), description: 'Lunettes de soleil à monture ronde écaille et verres foncés. Étui fourni.' },
+];

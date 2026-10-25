@@ -1,0 +1,13 @@
+import backpackImage from '../../../public/assets/sac_ecommerce.jpeg';
+const photo = (id) => `/assets/catalog/${id}.jpg`;
+
+export const bagProducts = [
+  { id: 'bag-city-backpack', brand: 'Poche & Cie', name: 'Sac à dos City', price: 18500, stock: 12, isNew: false, category: 'Sacs', type: 'Sac à dos', image: backpackImage, description: 'Sac à dos à rabat, compartiment principal et poche frontale zippée pour les trajets quotidiens.', compareAtPrice: 22500 },
+  { id: 'bag-trail-backpack', brand: 'Mouvement', name: 'Sac à dos cuir vintage', price: 29500, stock: 7, isNew: true, category: 'Sacs', type: 'Sac à dos en cuir', image: photo('photo-1622560480605-d83c853bc5c3'), description: 'Sac à dos en cuir souple avec poignée supérieure, poche avant et fermeture zippée.' },
+  { id: 'bag-handbag', brand: 'Maison Sira', name: 'Sac à main structuré', price: 24900, stock: 4, isNew: false, category: 'Sacs', type: 'Sac à main', image: photo('photo-1774702535771-eec0c74d6cb9'), description: 'Sac structuré à poignées courtes, fermeture zippée et bandoulière amovible.' },
+  { id: 'bag-tote', brand: 'Coton Libre', name: 'Cabas toile épaisse', price: 9900, stock: 18, isNew: false, category: 'Sacs', type: 'Cabas', image: photo('photo-1617713211981-4e64ca81bdad'), description: 'Cabas en toile robuste avec anses longues et poche intérieure. Format quotidien.', compareAtPrice: 12500 },
+  { id: 'bag-pochette-soiree', brand: 'Élan Paris', name: 'Pochette de soirée', price: 17900, stock: 8, isNew: true, category: 'Sacs', type: 'Pochette', image: photo('photo-1585488433921-f2ce041b2d64'), description: 'Pochette de soirée à silhouette souple, fermoir aimanté et chaîne amovible.' },
+  { id: 'bag-bandouliere', brand: 'Poche & Cie', name: 'Sac bandoulière demi-lune', price: 21900, stock: 9, isNew: false, category: 'Sacs', type: 'Sac bandoulière', image: photo('photo-1590874103328-eac38a683ce7'), description: 'Petit sac demi-lune avec bandoulière réglable et compartiment intérieur zippé.' },
+  { id: 'bag-seau', brand: 'Atelier Naya', name: 'Sac seau à lien coulissant', price: 23900, stock: 6, isNew: true, category: 'Sacs', type: 'Sac seau', image: photo('photo-1683921470299-b8f0f3331657'), description: 'Sac seau souple à lien coulissant, base renforcée et bandoulière réglable.' },
+  { id: 'bag-sacoche-urbaine', brand: 'Mouvement', name: 'Sac à dos minimaliste', price: 15900, stock: 11, isNew: false, category: 'Sacs', type: 'Sac à dos', image: photo('photo-1553062407-98eeb64c6a62'), description: 'Sac à dos sobre avec compartiment principal, poches organisatrices et fermeture zippée.' },
+];
